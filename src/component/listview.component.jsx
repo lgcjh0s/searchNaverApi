@@ -58,8 +58,8 @@ const ListView = () => {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                'X-Naver-Client-Id': 'z73CVZ80v0SYgrwfwbfz',
-                'X-Naver-Client-Secret': 'dFoN8oBtKB'
+                'X-Naver-Client-Id': CLIENT_ID,
+                'X-Naver-Client-Secret': CLIENT_SECRET
             }
         });
         resp.json().then(data => {
